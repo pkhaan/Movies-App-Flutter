@@ -9,7 +9,7 @@ class StarIcon extends StatelessWidget {
   Widget build(BuildContext context) {
     return Icon(
       icon,
-      color: Colors.yellow,
+      color: Color.fromARGB(255, 255, 175, 1),
       size: size,
     );
   }
